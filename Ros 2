@@ -1,0 +1,7 @@
+export TURTLEBOT3_MODEL=waffle_pi
+ roslaunch turtlebot3_gazebo mapROS2.launch 
+
+new window
+
+export TURTLEBOT3_MODEL=waffle_pi
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
